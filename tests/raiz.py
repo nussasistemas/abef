@@ -6,8 +6,10 @@ from scipy.optimize import minimize
 
 os.system("clear")
 
+
 def baskara(x):
     return x*x+3*x-10
+
 
 def calcularFaval(population):
     fx = []
@@ -20,7 +22,14 @@ def calcularFaval(population):
 
     return fx
 
+
 x0 = np.array([2])
-res = minimize(baskara, x0, method='nelder-mead',
-                options={'xatol': 1e-3, 'disp': True})
+res = minimize(
+    baskara,
+    x0,
+    method = 'nelder-mead',
+    options = {
+        'xatol' : 1e-3,
+        'disp' : True}
+)
 print(res)

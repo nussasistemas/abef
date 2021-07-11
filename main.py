@@ -1,4 +1,5 @@
 import os
+
 # Bibliotecas necessárias
 from lib.dictionary import *
 from lib.translating import *
@@ -7,7 +8,7 @@ os.system("clear")
 
 # Programa principal para tradução
 lang_from = 'en'
-lang_to   = 'pt'
+lang_to = 'pt'
 
 # ---    Texto a ser traduzido ---
 
