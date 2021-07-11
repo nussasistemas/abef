@@ -1,7 +1,7 @@
 import os
-import numpy
-import nltk
-import random
+# import numpy
+# import nltk
+# import random
 
 # -- Levenshtein distance algorithm
 import editdistance
@@ -150,16 +150,16 @@ class_p = {
     "verbo": "j"
 }
 class_pesos = {
-    'a': 0.7,
-    'b': 0.3,
-    'c': 0.3,
-    'd': 0.3,
-    'e': 0.3,
-    'f': 0.3,
-    'g': 0.3,
-    'h': 0.3,
+    'a': 0.6,
+    'b': 0.0,
+    'c': 0.0,
+    'd': 0.0,
+    'e': 0.0,
+    'f': 0.0,
+    'g': 0.0,
+    'h': 0.0,
     'i': 0.7,
-    'j': 0.7
+    'j': 0.8
 }
 
 # -- Dicionários 
@@ -192,6 +192,10 @@ dic_ef_pt_to_en = {
 dic_ef_en_to_pt = {
     "cija": "cija"
 }
+
+text1 = "abcdefg"
+text2 = "abcdefh"
+
 
 # -- Frases Idioma Origem I_o
 frase_o = 'o cavalo é branco'
