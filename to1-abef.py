@@ -81,11 +81,19 @@ def avalFrase(t_c, t_o, ef_ref, io, Fx_EF):
     cont_palavras = len(t_c)
     cont_pc = 0
     fx = 0
-    pnldd = 0
+    pnldd = 1
     i = 0
     # print (" - - - - - - - - - - - - - - - - - - - - - - -")
     # print ("Total de {} palavras".format(cont_palavras))
     # print ("ef_comparar: {} ".format(ef_comparar))
+
+    # Calcula penalidade por repeticão de palavras
+    if Fx_EF < 1:
+        words_list = [w.text for w in t_c]
+        repetitions = {i: words_list.count(i) for i in words_list}
+        pnldd = len(repetitions)/len(words_list)
+        # print("Lista: %s / %s" % (repetitions, pnldd))
+
 
     while i < cont_palavras:
         # print("Palavra: {} ({})".format(t_c[i].text,t_c[i].classification))
@@ -93,8 +101,12 @@ def avalFrase(t_c, t_o, ef_ref, io, Fx_EF):
             cont_pc += 1
             if len(buscarTraducao(t_o, t_c[i], io)) > 0:
                 fx += 1
+            else:
+                if t_c[i].classification in ['i', 'j']:
+                    pnldd *= 1-class_pesos[t_c[i].classification]
+
         i = i + 1
-    return (fx / (cont_pc * 1.0)) * Fx_EF
+    return (fx / (cont_pc * 1.0)) * Fx_EF * pnldd
 
 
 class SWord:
@@ -150,7 +162,7 @@ class_p = {
     "verbo": "j"
 }
 class_pesos = {
-    'a': 0.6,
+    'a': 0.1,
     'b': 0.0,
     'c': 0.0,
     'd': 0.0,
@@ -158,8 +170,8 @@ class_pesos = {
     'f': 0.0,
     'g': 0.0,
     'h': 0.0,
-    'i': 0.7,
-    'j': 0.8
+    'i': 0.1,
+    'j': 0.1
 }
 
 # -- Dicionários 
@@ -239,40 +251,39 @@ ef_t = getEFString(t_t)
 ef_comparar = getEFMaisProximo(ef_t, ef_io_ia)
 Fx_EF = avalEF(ef_t, ef_io_ia[ef_comparar])
 score = avalFrase(t_t, t_o, ef_io_ia[ef_comparar], 'pt', Fx_EF)
-print("Candidato {}({})".format(1, score))
+print("Candidato {}: ({})".format(1, score))
 
 t_t = [SWord('the', 'c'), SWord('chicken', 'i'), SWord('is', 'j'), SWord('white', 'a')]
 ef_t = getEFString(t_t)
 ef_comparar = getEFMaisProximo(ef_t, ef_io_ia)
 Fx_EF = avalEF(ef_t, ef_io_ia[ef_comparar])
 score = avalFrase(t_t, t_o, ef_io_ia[ef_comparar], 'pt', Fx_EF)
-print("Candidato {}({})".format(2, score))
+print("Candidato {}: ({})".format(2, score))
 
 t_t = [SWord('the', 'c'), SWord('the', 'c'), SWord('the', 'c'), SWord('the', 'c')]
 ef_t = getEFString(t_t)
 ef_comparar = getEFMaisProximo(ef_t, ef_io_ia)
 Fx_EF = avalEF(ef_t, ef_io_ia[ef_comparar])
 score = avalFrase(t_t, t_o, ef_io_ia[ef_comparar], 'pt', Fx_EF)
-print("Candidato {}({})".format(3, score))
+print("Candidato {}: ({})".format(3, score))
 
 t_t = [SWord('this', 'c'), SWord('horse', 'i'), SWord('is', 'j'), SWord('black', 'a')]
 ef_t = getEFString(t_t)
 ef_comparar = getEFMaisProximo(ef_t, ef_io_ia)
 Fx_EF = avalEF(ef_t, ef_io_ia[ef_comparar])
 score = avalFrase(t_t, t_o, ef_io_ia[ef_comparar], 'pt', Fx_EF)
-print("Candidato {}({})".format(4, score))
+print("Candidato {}: ({})".format(4, score))
 
 t_t = [SWord('white', 'a'), SWord('horse', 'i'), SWord('is', 'j'), SWord('the', 'c')]
-
 ef_t = getEFString(t_t)
 ef_comparar = getEFMaisProximo(ef_t, ef_io_ia)
 Fx_EF = avalEF(ef_t, ef_io_ia[ef_comparar])
 score = avalFrase(t_t, t_o, ef_io_ia[ef_comparar], 'pt', Fx_EF)
-print("Candidato {}({})".format(5, score))
+print("Candidato {}: ({})".format(5, score))
 
 t_t = [SWord('the', 'c'), SWord('horse', 'i'), SWord('is', 'j'), SWord('white', 'a')]
 ef_t = getEFString(t_t)
 ef_comparar = getEFMaisProximo(ef_t, ef_io_ia)
 Fx_EF = avalEF(ef_t, ef_io_ia[ef_comparar])
 score = avalFrase(t_t, t_o, ef_io_ia[ef_comparar], 'pt', Fx_EF)
-print("Candidato {}({})".format(6, score))
+print("Candidato {}: ({})".format(6, score))
