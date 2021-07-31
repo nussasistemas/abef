@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ced417f3-cc91-470b-a783-46553978a8f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/abef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to1-abef.py" beforeDir="false" afterPath="$PROJECT_DIR$/to1-abef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to2-abef.py" beforeDir="false" afterPath="$PROJECT_DIR$/to2-abef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to3-abef.py" beforeDir="false" afterPath="$PROJECT_DIR$/to3-abef.py" afterDir="false" />
-    </list>
+    <list default="true" id="ced417f3-cc91-470b-a783-46553978a8f3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
