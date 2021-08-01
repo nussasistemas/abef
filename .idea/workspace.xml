@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced417f3-cc91-470b-a783-46553978a8f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/abef_to1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/class_weights.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/dictionary_en_pt.yml" afterDir="false" />
@@ -52,13 +53,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunManager" selected="Python.tradutor_abef_01">
