@@ -54,10 +54,13 @@ def avalEF(ef, ef_ref):
 
 
 def getTranslation(palavra, io):
+    print(io)
     if io == 'en':
         dic = dicionario_en_pt
     else:
         dic = dicionario_pt_en
+    print(palavra)
+    print(dic)
     if palavra in dic:
         return dic[palavra].split(',')
     else:

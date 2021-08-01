@@ -1,0 +1,56 @@
+words:
+  o:
+    text: o
+    classification:
+      - c
+    translations:
+      - the
+  cavalo:
+    text: cavalo
+    classification:
+      - i
+    translations:
+      - horse
+  é:
+    text: é
+    classification:
+      - j
+    translations:
+      - is
+  este:
+    text: este
+    classification:
+      - h
+    translations:
+      - this
+  isto:
+    text: isto
+    classification:
+      - h
+    translations:
+      - this
+  esta:
+    text: esta
+    classification:
+      - h
+    translations:
+      - this
+  preto:
+    text: preto
+    classification:
+      - a
+    translations:
+      - black
+  preta:
+    text: preta
+    classification:
+      - a
+    translations:
+      - black
+  branco:
+    text: branco
+    classification:
+      - a
+    translations:
+      - white
+      - blank

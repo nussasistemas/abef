@@ -1,0 +1,53 @@
+words:
+  the:
+    text: the
+    classification:
+      - c
+    translations:
+      - o
+      - a
+      - os
+      - as
+  chicken:
+    text: chicken
+    classification:
+      - i
+    translations:
+      - frango
+  black:
+    text: black
+    classification:
+      - a
+    translations:
+      - preto
+      - preta
+  this:
+    text: this
+    classification:
+      - h
+    translations:
+      - isto
+      - este
+      - esta
+  horse:
+    text: horse
+    classification:
+      - i
+    translations:
+      - cavalo
+  is:
+    text: is
+    classification:
+      - j
+    translations:
+      - é
+      - está
+  white:
+    text: white
+    classification:
+      - a
+    translations:
+      - branco
+      - branca
+      - brancos
+      - brancas
