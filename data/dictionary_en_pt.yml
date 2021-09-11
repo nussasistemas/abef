@@ -279,3 +279,323 @@ words:
       - j
     translations:
       - morrer
+  all:
+    classification:
+    - i
+    text: all
+    translations:
+    - todo
+  and:
+    classification:
+    - d
+    text: and
+    translations:
+    - e
+  any:
+    classification:
+    - i
+    text: any
+    translations:
+    - as
+    - todo
+    - um
+  appropriate:
+    classification:
+    - a
+    - j
+    text: appropriate
+    translations:
+    - apropriado
+    - adequado
+    - apropriar
+    - adequar
+  are:
+    classification:
+    - i
+    text: are
+    translations:
+    - sao
+    - serao
+    - are
+  attitudes:
+    classification:
+    - i
+    text: attitudes
+    translations:
+    - atitude
+  be:
+    classification:
+    - j
+    text: be
+    translations:
+    - ser
+    - estar
+    - ter
+    - ficar
+    - haver
+  beliefs:
+    classification:
+    - i
+    text: beliefs
+    translations:
+    - crenca
+  but:
+    classification:
+    - d
+    text: but
+    translations:
+    - mas
+    - porem
+    - Contudo
+  byproduct:
+    classification:
+    - i
+    text: byproduct
+    translations:
+    - subproduto
+  change:
+    classification:
+    - j
+    - i
+    text: change
+    translations:
+    - alterar
+    - mudar
+    - modificar
+    - trocar
+    - alteracao
+    - mudanca
+    - modificacao
+    - muda
+  consistency:
+    classification:
+    - i
+    text: consistency
+    translations:
+    - consistencia
+    - coerencia
+    - uniformidade
+  create:
+    classification:
+    - j
+    text: create
+    translations:
+    - criar
+    - crer
+  different:
+    classification:
+    - a
+    text: different
+    translations:
+    - diferente
+    - diverso
+    - varios
+    - distinto
+  difficult:
+    classification:
+    - a
+    text: difficult
+    translations:
+    - dificil
+    - complicado
+  fun:
+    classification:
+    - i
+    - j
+    text: fun
+    translations:
+    - diversao
+    - divertimento
+    - sarro
+    - divertir
+  happy:
+    classification:
+    - a
+    text: happy
+    translations:
+    - feliz
+    - contente
+    - satisfeito
+    - Alegre
+  having:
+    classification:
+    - j
+    text: having
+    translations:
+    - apor
+    - proporcionar
+    - albergar
+    - trabalhar
+    - evoluir
+    - abrigar
+    - caber
+  it:
+    classification:
+    - h
+    - i
+    text: it
+    translations:
+    - ele
+    - o
+    - isso
+    - este
+    - mesmo
+    - Isto
+    - esse
+    - TI
+  mind:
+    classification:
+    - i
+    - j
+    text: mind
+    translations:
+    - mente
+    - espirito
+    - mentir
+    - importar
+  not:
+    classification:
+    - i
+    text: not
+    translations:
+    - nao
+  perspective:
+    classification:
+    - i
+    text: perspective
+    translations:
+    - perspectiva
+    - vista
+  results:
+    classification:
+    - i
+    text: results
+    translations:
+    - resultado
+  start:
+    classification:
+    - j
+    - i
+    text: start
+    translations:
+    - iniciar
+    - comecar
+    - comedir
+    - arrancar
+    - inicio
+    - iniciado
+    - comeco
+  state:
+    classification:
+    - i
+    - j
+    text: state
+    translations:
+    - estado
+    - estar
+    - afirmar
+    - indicar
+    - declarar
+    - informar
+  sudden:
+    classification:
+    - i
+    - a
+    text: sudden
+    translations:
+    - repente
+    - brusca
+    - subitas
+    - subito
+    - repentino
+    - brusco
+  try:
+    classification:
+    - j
+    - i
+    text: try
+    translations:
+    - tentar
+    - experimentar
+    - tenta
+  very:
+    classification:
+    - b
+    - a
+    text: very
+    translations:
+    - muito
+    - bastante
+    - proprio
+  when:
+    classification:
+    - d
+    text: when
+    translations:
+    - quando
+  where:
+    classification:
+    - b
+    - d
+    text: where
+    translations:
+    - onde
+    - aonde
+    - quando
+    - que
+    - qual
+    - caso
+  without:
+    classification:
+    - g
+    text: without
+    translations:
+    - sem
+  your:
+    classification:
+    - i
+    text: your
+    translations:
+    - sua
+    - seu
+    - o
+  yourself:
+    classification:
+    - h
+    text: yourself
+    translations:
+    - se
+    - mesmo
+    - te
+  enjoy:
+    classification:
+    - j
+    text: enjoy
+    translations:
+    - desfrutar
+    - apreciar
+    - aproveitar
+    - gozar
+    - gostar
+    - usufruir
+    - curtir
+    - saborear
+    - divertir
+    - beneficiar
+    - disfrutar
+  enjoying:
+    classification:
+    - j
+    text: enjoying
+    translations:
+    - desfrutando
+    - apreciando
+    - aproveitando
+    - gozando
+    - gostando
+    - usufruindo
+    - curtindo
+    - saboreando
+    - divertindo
+    - beneficiando
+    - disfrutando

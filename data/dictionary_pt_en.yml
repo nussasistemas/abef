@@ -337,3 +337,455 @@ words:
       - create
       - make
       - get
+  as:
+    classification:
+    - c
+    text: as
+    translations:
+    - the
+    - them
+    - ye
+  os:
+    classification:
+    - c
+    text: os
+    translations:
+    - the
+    - them
+    - ye
+  consistencia:
+    classification:
+    - i
+    text: consistencia
+    translations:
+    - consistency
+    - consistence
+  das:
+    classification:
+    - g
+    text: das
+    translations:
+    - of
+    - from
+  divertir:
+    classification:
+    - j
+    text: divertir
+    translations:
+    - fun
+    - enjoy
+    - have fun
+    - entertain
+    - amuse
+    - have some fun
+    - join the fun
+    - be fun
+  e:
+    classification:
+    - d
+    text: e
+    translations:
+    - and
+  espirito:
+    classification:
+    - i
+    text: espirito
+    translations:
+    - spirit
+    - holy spirit
+    - spirits
+    - mind
+    - holy
+    - Espirito
+  estado:
+    classification:
+    - i
+    text: estado
+    translations:
+    - state
+    - status
+    - member state
+    - member
+    - states
+    - estado
+  feliz:
+    classification:
+    - a
+    text: feliz
+    translations:
+    - happy
+    - glad
+    - lucky
+    - pleased
+    - fortunate
+    - very happy
+  mas:
+    classification:
+    - d
+    text: mas
+    translations:
+    - but
+  mental:
+    classification:
+    - a
+    text: mental
+    translations:
+    - mental
+    - mentally ill
+    - and mental
+  mudar:
+    classification:
+    - j
+    text: mudar
+    translations:
+    - change
+    - rename
+    - switch
+    - move
+    - shift
+    - relocate
+  muito:
+    classification:
+    - b
+    - i
+    text: muito
+    translations:
+    - very
+    - much
+    - too
+    - quite
+    - really
+    - highly
+    - greatly
+    - very much
+    - extremely
+    - too much
+    - lot
+    - far
+    - lots
+    - pretty
+    - plenty
+  que:
+    classification:
+    - d
+    - i
+    text: que
+    translations:
+    - that
+    - than
+    - as
+    - where
+    - why
+    - what
+    - what purpose
+  sem:
+    classification:
+    - g
+    text: sem
+    translations:
+    - without
+  ser:
+    classification:
+    - j
+    text: ser
+    translations:
+    - be
+    - willing
+  serao:
+    classification:
+    - i
+    text: serao
+    translations:
+    - will
+    - are
+    - evening
+    - fireside
+    - this will
+    - will get
+  seu:
+    classification:
+    - i
+    - h
+    text: seu
+    translations:
+    - his
+    - your
+    - seu
+    - its
+    - their
+    - yours
+    - you
+    - it
+    - they
+    - him
+    - theirs
+  subitamente:
+    classification:
+    - b
+    text: subitamente
+    translations:
+    - suddenly
+  subproduto:
+    classification:
+    - i
+    text: subproduto
+    translations:
+    - byproduct
+    - product
+    - ABP
+    - subproduct
+    - waste byproduct
+  tentar:
+    classification:
+    - j
+    text: tentar
+    translations:
+    - try
+    - attempt
+    - then try
+    - tempt
+  ter:
+    classification:
+    - j
+    text: ter
+    translations:
+    - have
+    - be
+    - take
+    - get
+  atitude:
+    classification:
+    - i
+    text: atitude
+    translations:
+    - attitude
+  atitudes:
+    classification:
+      - i
+    text: atitudes
+    translations:
+      - attitude
+  consistente:
+    classification:
+    - a
+    text: consistente
+    translations:
+    - consistent
+  consistentes:
+    classification:
+      - a
+    text: consistente
+    translations:
+      - consistent
+  consistecia:
+    classification:
+    - i
+    text: consistencia
+    translations:
+    - consistency
+    - consistence
+  consistecias:
+    classification:
+    - i
+    text: consistencias
+    translations:
+    - consistency
+    - consistence
+  convicao:
+    classification:
+    - i
+    text: convicao
+    translations:
+    - conviction
+    - belief
+    - firm belief
+    - political convictions
+    - gain confidence
+  convicoes:
+    classification:
+      - i
+    text: convicoes
+    translations:
+      - convictions
+      - beliefs
+      - firm beliefs
+      - political convictions
+      - gain confidence
+  crenca:
+    classification:
+    - i
+    text: crenca
+    translations:
+    - belief
+    - creed
+  crencas:
+    classification:
+    - i
+    text: crencas
+    translations:
+    - beliefs
+    - creeds
+  diferente:
+    classification:
+    - a
+    text: diferente
+    translations:
+    - different
+    - various
+    - other
+  diferentes:
+    classification:
+      - a
+    text: diferentes
+    translations:
+      - different
+      - various
+      - other
+  dificil:
+    classification:
+    - a
+    text: dificil
+    translations:
+    - difficult
+    - hard
+    - tough
+    - dicult
+  dificeis:
+    classification:
+      - a
+    text: dificesis
+    translations:
+      - difficult
+      - hard
+      - tough
+      - dicult
+  disposicao:
+    classification:
+    - i
+    text: disposicao
+    translations:
+    - provision
+    - disposal
+    - arrangement
+    - layout
+    - disposition
+    - willingness
+    - rules
+    - measures
+    - relevant provisions
+  disposicoes:
+    classification:
+    - i
+    text: disposicoes
+    translations:
+    - provision
+    - disposal
+    - arrangement
+    - layout
+    - disposition
+    - willingness
+    - rules
+    - measures
+    - relevant provisions
+  poder:
+    classification:
+    - i
+    text: poder
+    translations:
+    - can
+    - may
+    - might
+    - power
+  podem:
+    classification:
+      - i
+    text: podem
+    translations:
+      - can
+      - may
+      - might
+  resultado:
+    classification:
+    - i
+    text: resultado
+    translations:
+    - result
+    - outcome
+    - output
+    - results
+    - finding
+  resultados:
+    classification:
+    - i
+    text: resultados
+    translations:
+    - results
+    - outcomes
+    - outputs
+    - results
+  sua:
+    classification:
+    - i
+    - h
+    text: sua
+    translations:
+    - your
+    - her
+    - its
+  suas:
+    classification:
+    - i
+    - h
+    text: suas
+    translations:
+    - yours
+    - hers
+    - their
+  seus:
+    classification:
+      - i
+      - h
+    text: seus
+    translations:
+      - yours
+      - their
+  adequado:
+    classification:
+    - a
+    text: adequado
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper
+  adequados:
+    classification:
+    - a
+    text: adequados
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper
+  adequada:
+    classification:
+    - a
+    text: adequada
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper
+  adequadas:
+    classification:
+    - a
+    text: adequadas
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper

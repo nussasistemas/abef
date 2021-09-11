@@ -1,0 +1,41 @@
+words:
+  adequado:
+    classification:
+    - a
+    text: adequado
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper
+  adequados:
+    classification:
+    - a
+    text: adequados
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper
+  adequada:
+    classification:
+    - a
+    text: adequada
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper
+  adequadas:
+    classification:
+    - a
+    text: adequadas
+    translations:
+    - appropriate
+    - suitable
+    - adequate
+    - suited
+    - proper

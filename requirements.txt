@@ -5,3 +5,4 @@ numpy==1.20.3
 requests==2.25.1
 scipy==1.6.2
 PyYAML==5.4.1
+requests
