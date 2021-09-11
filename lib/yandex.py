@@ -51,14 +51,10 @@ class Yandex:
 
     def run(self):
         # Words to be translated
-        words = ['a', 'adequado', 'as', 'atitude', 'consistência', 'consistente', 'convicção',
-                 'crença', 'criar', 'das', 'de', 'diferente', 'difícil', 'disposição', 'divertir', 'divertir',
-                 'do', 'e', 'é', 'espírito', 'está', 'estado', 'feliz', 'mas', 'mental', 'mudar', 'muito', 'não', 'o',
-                 'os', 'para', 'poder', 'podem', 'quando', 'que', 'resultado', 'se', 'sem', 'ser', 'serão', 'seu',
-                 'sua', 'subitamente', 'subproduto', 'tentar', 'ter', 'um', 'você']
+        words = ['one']
 
-        dict_pt_en = load_parameters('../data/dictionary_pt_en.yml')
-        # dict_en_pt = load_parameters('../data/dictionary_en_pt.yml')
+        # dict_source = load_parameters('../data/dictionary_pt_en.yml')
+        dict_source = load_parameters('../data/dictionary_en_pt.yml')
 
         # New words translated
         new_dict_words = {'words': {}}
@@ -66,7 +62,7 @@ class Yandex:
         # Fetch every single word
         for word in words:
             # Check if the word already exists in dictionary
-            if word not in dict_pt_en['words']:
+            if word not in dict_source['words']:
                 print(colored('Translating: %s ' % word, 'blue'))
 
                 results = self.get_word_data(word)
@@ -96,7 +92,7 @@ class Yandex:
                 print(colored('Waiting a sec...', 'magenta'))
                 time.sleep(1)
 
-        with open('../data/new_dict_pt_en.yml', 'w') as yaml_file:
+        with open('../data/new_dict_values.yml', 'w') as yaml_file:
             yaml.dump(new_dict_words, yaml_file, default_flow_style=False)
 
         print(colored('   FINISHED!   ', 'green', attrs=['reverse']))
@@ -105,5 +101,5 @@ class Yandex:
 
 if __name__ == "__main__":
     source_word = "sleeve"
-    yandex = Yandex("pt-en")
+    yandex = Yandex("en-pt")
     yandex.run()

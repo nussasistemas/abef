@@ -1,0 +1,9 @@
+words:
+  one:
+    classification:
+    - i
+    text: one
+    translations:
+    - um
+    - uma
+    - unico

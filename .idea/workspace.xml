@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced417f3-cc91-470b-a783-46553978a8f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/new_dict_en_pt.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/new_dict_pt_en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/yandex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/new_dict_values.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_sentence_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradutor_abef_04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/dictionary_en_pt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/dictionary_en_pt.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/dictionary_pt_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/dictionary_pt_en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ss_en_pt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/ss_en_pt.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ss_pt_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/ss_pt_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/yandex.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/yandex.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +61,8 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yandex">
-    <configuration name="chart-01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.get_sentence_structures">
+    <configuration name="get_sentence_structures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rtbe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/results" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/results/chart-01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_sentence_structures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_sentence_structures" />
         <item itemvalue="Python.yandex" />
         <item itemvalue="Python.tradutor_abef_01" />
         <item itemvalue="Python.tradutor_abef_03" />
         <item itemvalue="Python.tradutor_abef_02" />
-        <item itemvalue="Python.chart-01" />
       </list>
     </recent_temporary>
   </component>

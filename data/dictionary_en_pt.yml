@@ -311,7 +311,7 @@ words:
     - adequar
   are:
     classification:
-    - i
+    - j
     text: are
     translations:
     - sao
@@ -353,6 +353,12 @@ words:
     text: byproduct
     translations:
     - subproduto
+  by-product:
+    classification:
+      - i
+    text: by-product
+    translations:
+      - subproduto
   change:
     classification:
     - j
@@ -375,6 +381,21 @@ words:
     - consistencia
     - coerencia
     - uniformidade
+  conviction:
+    classification:
+    - i
+    text: conviction
+    translations:
+    - conviccao
+    - condenacao
+    - convencimento
+  convictions:
+    classification:
+    - i
+    text: convictions
+    translations:
+    - conviccoes
+    - convencimentos
   create:
     classification:
     - j
@@ -407,6 +428,7 @@ words:
     - diversao
     - divertimento
     - sarro
+    - divertir-se
     - divertir
   happy:
     classification:
@@ -548,17 +570,27 @@ words:
   without:
     classification:
     - g
+    - b
+    - d
     text: without
     translations:
     - sem
   your:
     classification:
     - i
+    - c
     text: your
     translations:
     - sua
     - seu
-    - o
+  yours:
+    classification:
+    - i
+    - c
+    text: yours
+    translations:
+    - suas
+    - seus
   yourself:
     classification:
     - h
@@ -580,6 +612,7 @@ words:
     - usufruir
     - curtir
     - saborear
+    - divertir-se
     - divertir
     - beneficiar
     - disfrutar
@@ -599,3 +632,18 @@ words:
     - divertindo
     - beneficiando
     - disfrutando
+  our:
+    classification:
+    - c
+    - h
+    text: our
+    translations:
+    - nossos
+  one:
+    classification:
+    - i
+    text: one
+    translations:
+    - um
+    - uma
+    - unico

@@ -151,6 +151,14 @@ words:
       - no
       - not
       - dont
+  nao:
+    text: nao
+    classification:
+      - b
+    translations:
+      - no
+      - not
+      - dont
   encontrar:
     text: encontrar
     classification:
@@ -371,6 +379,19 @@ words:
     classification:
     - j
     text: divertir
+    translations:
+    - fun
+    - enjoy
+    - have fun
+    - entertain
+    - amuse
+    - have some fun
+    - join the fun
+    - be fun
+  divertir-se:
+    classification:
+    - j
+    text: divertir-se
     translations:
     - fun
     - enjoy
@@ -601,10 +622,10 @@ words:
     - firm belief
     - political convictions
     - gain confidence
-  convicoes:
+  conviccoes:
     classification:
       - i
-    text: convicoes
+    text: conviccoes
     translations:
       - convictions
       - beliefs
@@ -700,6 +721,14 @@ words:
     classification:
       - i
     text: podem
+    translations:
+      - can
+      - may
+      - might
+  podemos:
+    classification:
+      - i
+    text: podemos
     translations:
       - can
       - may
