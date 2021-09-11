@@ -54,3 +54,286 @@ words:
     translations:
       - white
       - blank
+  a:
+    text: a
+    classification:
+      - c
+    translations:
+      - the
+  da:
+    text: da
+    classification:
+      - g
+    translations:
+      - of
+      - to
+      - from
+      - than
+  do:
+    text: do
+    classification:
+      - g
+    translations:
+      - of
+      - to
+      - from
+      - than
+  de:
+    text: de
+    classification:
+      - g
+    translations:
+      - of
+      - to
+      - from
+      - in
+      - whit
+      - than
+  camisa:
+    text: camisa
+    classification:
+      - i
+    translations:
+      - shirt
+      - sart
+      - jacket
+  está:
+    text: está
+    classification:
+      - j
+    translations:
+      - is
+  manga:
+    text: manga
+    classification:
+      - i
+    translations:
+      - mango
+      - sleeve
+  rasgou:
+    text: rasgou
+    classification:
+      - j
+    translations:
+      - rent
+      - tore
+      - ripped
+      - lacerated
+  rasgada:
+    text: rasgada
+    classification:
+      - a
+    translations:
+      - torn
+  se:
+    text: se
+    classification:
+      - d
+    translations:
+      - if
+  você:
+    text: você
+    classification:
+      - h
+    translations:
+      - you
+  tu:
+    text: tu
+    classification:
+      - h
+    translations:
+      - you
+  não:
+    text: não
+    classification:
+      - b
+    translations:
+      - no
+      - not
+      - dont
+  encontrar:
+    text: encontrar
+    classification:
+      - j
+    translations:
+      - meet
+      - find
+      - encounter
+      - detect
+  um:
+    text: um
+    classification:
+      - a
+    translations:
+      - a
+      - one
+      - some
+  uma:
+    text: uma
+    classification:
+      - a
+    translations:
+      - a
+      - one
+      - some
+  jeito:
+    text: jeito
+    classification:
+      - i
+    translations:
+      - way
+  ganhar:
+    text: ganhar
+    classification:
+      - j
+    translations:
+      - earn
+      - make
+  ganhares:
+    text: ganhares
+    classification:
+      - j
+    translations:
+      - make
+      - earn
+      - get
+      - gain
+      - win
+  ganhardes:
+    text: ganhardes
+    classification:
+      - j
+    translations:
+      - make
+      - earn
+      - get
+      - gain
+      - win
+  enquanto:
+    text: enquanto
+    classification:
+      - d
+    translations:
+      - while
+      - whiles
+  quando:
+    text: quando
+    classification:
+      - d
+      - b
+    translations:
+      - when
+  dorme:
+    text: dorme
+    classification:
+      - j
+    translations:
+      - sleep
+      - rest
+      - li
+      - kip
+      - doss
+  vai:
+    text: vai
+    classification:
+      - j
+    translations:
+      - will
+  irá:
+    text: irá
+    classification:
+      - j
+    translations:
+      - will
+  trabalhar:
+    text: trabalhar
+    classification:
+      - j
+    translations:
+      - work
+  trabalhará:
+    text: trabalhará
+    classification:
+      - j
+    translations:
+      - work
+  trabalharás:
+    text: trabalharás
+    classification:
+      - j
+    translations:
+      - work
+  trabalhares:
+    text: trabalhares
+    classification:
+      - j
+    translations:
+      - work
+  até:
+    text: até
+    classification:
+      - g
+    translations:
+      - until
+      - to
+      - till
+  morrer:
+    text: morrer
+    classification:
+      - j
+    translations:
+      - die
+  fazer:
+    text: fazer
+    classification:
+      - j
+    translations:
+      - do
+      - make
+      - produce
+  dinheiro:
+    text: dinheiro
+    classification:
+      - i
+    translations:
+      - money
+  forma:
+    text: forma
+    classification:
+      - i
+    translations:
+      - means
+      - way
+  caminho:
+    text: caminho
+    classification:
+      - i
+    translations:
+      - path
+      - way
+      - road
+  para:
+    text: para
+    classification:
+      - g
+    translations:
+      - to
+      - for
+      - in
+      - onto
+  meio:
+    text: meio
+    classification:
+      - i
+    translations:
+      - way
+      - half
+      - means
+  criar:
+    text: criar
+    classification:
+      - j
+    translations:
+      - create
+      - make
+      - get

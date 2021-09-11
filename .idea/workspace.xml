@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced417f3-cc91-470b-a783-46553978a8f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abef_to1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/class_weights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dictionary_en_pt.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dictionary_pt_en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ss_en_pt.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ss_pt_en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/sword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tradutor_abef_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rtbe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rtbe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ga_baskara.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ga_to1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/_results_abef_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/_results_abef_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/chart-01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/chart-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/chart-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/chart-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/results_abef_01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/results_abef_02.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/results_abef_03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradutor_abef_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradutor_abef_03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dictionary_en_pt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/dictionary_en_pt.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dictionary_pt_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/dictionary_pt_en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ss_en_pt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/ss_en_pt.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ss_pt_en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/ss_pt_en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/abef.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/abef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to1-abef.py" beforeDir="false" afterPath="$PROJECT_DIR$/to1-abef.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ga.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ga.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/to2-abef.py" beforeDir="false" afterPath="$PROJECT_DIR$/to2-abef.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradutor_abef_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/tradutor_abef_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +66,33 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunManager" selected="Python.tradutor_abef_01">
-    <configuration name="abef" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chart-01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rtbe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/results" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/results/chart-01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ga_to1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rtbe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,70 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/abef.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ga" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rtbe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/ga.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="to1-abef" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rtbe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to1-abef.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="to1-bleu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rtbe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to1-bleu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/ga_to1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,13 +134,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tradutor_abef_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rtbe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tradutor_abef_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tradutor_abef_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rtbe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tradutor_abef_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.tradutor_abef_01" />
-        <item itemvalue="Python.to1-abef" />
-        <item itemvalue="Python.abef" />
-        <item itemvalue="Python.ga" />
-        <item itemvalue="Python.to1-bleu" />
+        <item itemvalue="Python.tradutor_abef_03" />
+        <item itemvalue="Python.tradutor_abef_02" />
+        <item itemvalue="Python.chart-01" />
+        <item itemvalue="Python.ga_to1" />
       </list>
     </recent_temporary>
   </component>

@@ -92,10 +92,10 @@ def main():
     dict_pt_en = load_parameters('./data/dictionary_pt_en.yml')
     dict_en_pt = load_parameters('./data/dictionary_en_pt.yml')
     ss_pt_en = load_parameters('./data/ss_pt_en.yml')
-    sentence_o = 'o cavalo é branco'.split(' ')
+    sentence_o = 'você vai trabalhar até morrer' \
+                 ''.split(' ')
     source_language = 'pt'
     target_language = 'en'
-
     dict_main = filter_dictionary(dict_en_pt['words'], sentence_o)
 
     for word in sentence_o:
@@ -105,7 +105,7 @@ def main():
                 class_penalties)
 
     individuals = 5
-    genes = len(sentence_o)
+    genes = len(sentence_o)+1
     ger = 1000
     max_number = len(dict_pt_en)
     results = ga(individuals, genes, ger, max_number, f_aval, get_sentence)

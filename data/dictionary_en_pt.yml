@@ -51,3 +51,231 @@ words:
       - branca
       - brancos
       - brancas
+  can:
+    text: can
+    classification:
+      - j
+      - i
+    translations:
+      - pode
+      - lata
+      - recipiente
+  short:
+    text: short
+    classification:
+      - j
+      - a
+    translations:
+      - bermuda
+      - pequeno
+  shirt:
+    text: shirt
+    classification:
+      - i
+    translations:
+      - camisa
+  sleeve:
+    text: sleeve
+    classification:
+      - i
+    translations:
+      - manga
+  collar:
+    text: collar
+    classification:
+      - i
+    translations:
+      - gola
+  tore:
+    text: tore
+    classification:
+      - j
+    translations:
+      - rasgou
+  torn:
+    text: torn
+    classification:
+      - j
+      - a
+    translations:
+      - rasgada
+  rent:
+    text: rent
+    classification:
+      - j
+      - i
+    translations:
+      - rasgou
+      - aluguel
+  lacerated:
+    text: lacerated
+    classification:
+      - j
+      - a
+    translations:
+      - rasgou
+      - rasgado
+  ripped:
+    text: ripped
+    classification:
+      - j
+    translations:
+      - rasgou
+  of:
+    text: of
+    classification:
+      - g
+    translations:
+      - do
+      - da
+      - de
+  to:
+    text: to
+    classification:
+      - g
+    translations:
+      - do
+      - da
+      - de
+      - para
+  from:
+    text: from
+    classification:
+      - g
+    translations:
+      - do
+      - da
+      - de
+      - desde
+  than:
+    text: than
+    classification:
+      - d
+    translations:
+      - do
+      - da
+      - de
+  with:
+    text: with
+    classification:
+      - g
+    translations:
+      - de
+      - com
+      - em
+      - por
+  has:
+    text: has
+    classification:
+      - j
+    translations:
+      - tem
+  if:
+    text: if
+    classification:
+      - d
+    translations:
+      - se
+      - embora
+  you:
+    text: you
+    classification:
+      - h
+    translations:
+      - você
+      - tu
+  dont:
+    text: dont
+    classification:
+      - j
+    translations:
+      - não
+  find:
+    text: find
+    classification:
+      - j
+    translations:
+      - achar
+      - encontrar
+      - encontrares
+  a:
+    text: a
+    classification:
+      - c
+    translations:
+      - um
+      - uma
+  way:
+    text: way
+    classification:
+      - i
+    translations:
+      - jeito
+      - forma
+      - maneira
+      - meio
+      - caminho
+  make:
+    text: make
+    classification:
+      - j
+    translations:
+      - fazer
+      - criar
+      - ganhar
+      - ganhares
+      - ganhardes
+  money:
+    text: money
+    classification:
+      - i
+    translations:
+      - dinheiro
+  while:
+    text: while
+    classification:
+      - d
+    translations:
+      - enquanto
+      - durante
+      - quando
+  sleep:
+    text: sleep
+    classification:
+      - j
+    translations:
+      - dorme
+      - dormir
+      - dormindo
+      - dormes
+  will:
+    text: will
+    classification:
+      - j
+    translations:
+      - irá
+      - vai
+  work:
+    text: work
+    classification:
+      - j
+      - i
+    translations:
+      - trabalhar
+      - trabalharás
+      - trabalhares
+      - trabalhará
+      - -trabalho
+  until:
+    text: until
+    classification:
+      - g
+      - d
+    translations:
+      - até
+  die:
+    text: die
+    classification:
+      - j
+    translations:
+      - morrer

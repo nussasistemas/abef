@@ -3,6 +3,8 @@ import random
 import os
 from array import *
 
+os.system("clear")
+
 
 def randNumbers(elements, nmin, nmax):
     res = []
@@ -158,3 +160,15 @@ def ga(individuals, genes, ger):
         ger_cont = ger_cont + 1
 
     # print(Pin)
+
+
+def main():
+    # random.seed(64) # Fixa a semente e conseguentemente os números sorteados
+    individuals = 10
+    genes = 1
+    ger = 1000
+    ga(individuals, genes, ger)
+
+
+if __name__ == "__main__":
+    main()

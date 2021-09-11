@@ -100,4 +100,4 @@ class Abef:
                         penalty *= 1 - self.class_weights[t_c[i]['classification'][0]]
             i = i + 1
 
-        return (fx / (count_pc * 1.0)) * fx_ss * penalty
+        return (fx / (count_pc * 1.0)) * fx_ss * penalty if count_pc > 0 else count_pc

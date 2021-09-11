@@ -243,7 +243,7 @@ dicionario_en_pt = {
     "to": "do,da,de,para",
     "from": "do,da,de",
     "than": "do,da,de",
-    "whit": "de",
+    "with": "de",
     "has": "tem",
     "if": "se,embora",
     "you": "você,tu",

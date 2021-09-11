@@ -1,7 +1,5 @@
 import numpy
 import random
-import os
-from array import *
 
 
 def randNumbers(elements, nmin, nmax):
@@ -11,10 +9,6 @@ def randNumbers(elements, nmin, nmax):
         res.append(random.uniform(nmin, nmax))
 
     return res
-
-
-def baskara(x):
-    return x * x + 3 * x - 10
 
 
 def randomPopulation(i, j, nmin, nmax):
@@ -119,19 +113,20 @@ def mutation(population, ger_cont, ger_max, mut_rate, error_rate, lim_inf, lim_s
     return res
 
 
-def ga(individuals, genes, ger):
+def ga(individuals, genes, ger, max_number, f_aval, get_sentence):
+    results = []
     # Parâmetros iniciais -----------------------------------------------------
     m = individuals  # Número de indivíduos na população
     n = genes  # Número de genes no cromossomodo
     ger_max = ger  # Número máximo de gerações
-    Ain = -10  # Assíntota inferior do espaço de busca
-    Asu = 10  # Assíntota superior do espaço de busca
+    Ain = 0  # Assíntota inferior do espaço de busca
+    Asu = max_number  # Assíntota superior do espaço de busca
 
-    lim_inf = 0.3  # Valor estocastico inferior dentro da funcao de mutacao
-    lim_sup = 100  # Valor estocastico superior dentro da funcao de mutacao
+    lim_inf = 0.5  # Valor estocastico inferior dentro da funcao de mutacao
+    lim_sup = 1  # Valor estocastico superior dentro da funcao de mutacao
 
-    tc = numpy.linspace(0.8, 0.2, ger_max)  # Taxa de Cruzamento
-    tm = numpy.linspace(0.05, 0.3, ger_max)  # Taxa de Mutação
+    tc = numpy.linspace(0.9, 0.2, ger_max)  # Taxa de Cruzamento
+    tm = numpy.linspace(0.05, 0.4, ger_max)  # Taxa de Mutação
     tau = 4  # Quantidade de indivíduos escolhidos para torneio
     error_rate = 1e-2  # Taxa de erro para parar o algoritmo
 
@@ -146,15 +141,15 @@ def ga(individuals, genes, ger):
 
     # x = [[1,2],[3,5],[0,-5]]
     while melhor_i[-1] >= error_rate and ger_cont < ger_max:
-        fx = calcularFaval(Pin)
+        fx = f_aval(Pin)
         pop_fx = ordena(Pin, fx)
         melhor_i = pop_fx[-1]
         pop_sel = selection(pop_fx, tau)
         pop_cross = crossover(pop_sel, tc[ger_cont])
         pop_mut = mutation(pop_cross, ger_cont, ger_max, tm[ger_cont], error_rate, lim_inf, lim_sup)
-
         Pin = numpy.vstack([pop_mut, melhor_i[:-1]])
-        print("Rodada ", ger_cont + 1, melhor_i)
+        print("[%d] S: %s [%s]" % (ger_cont, get_sentence(melhor_i), melhor_i[-1]))
         ger_cont = ger_cont + 1
+        results.append([ger_cont, melhor_i[-1]])
 
-    # print(Pin)
+    return results
