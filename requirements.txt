@@ -1,7 +1,7 @@
 editdistance==0.5.3
 nltk==3.6.2
 wordnet==0.0.1b2
-numpy==1.20.3
+numpy==1.22.0
 requests==2.25.1
 scipy==1.6.2
 PyYAML==5.4.1
