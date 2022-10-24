@@ -104,7 +104,7 @@ def main():
     abef = Abef(dict_pt_en['words'], dict_en_pt['words'], source_language, target_language, Class_Weights,
                 class_penalties)
 
-    individuals = 5
+    individuals = 10
     genes = len(sentence_o)
     ger = 1000
     max_number = len(dict_pt_en)

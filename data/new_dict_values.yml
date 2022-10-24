@@ -1,9 +1,29 @@
 words:
-  one:
+  over:
+    classification:
+    - g
+    - b
+    text: over
+    translations:
+    - sobre
+    - durante
+    - nos
+    - mais
+    - atraves
+  rabbit:
     classification:
     - i
-    text: one
+    text: rabbit
     translations:
-    - um
-    - uma
-    - unico
+    - coelho
+  table:
+    classification:
+    - i
+    - j
+    text: table
+    translations:
+    - tabela
+    - mesa
+    - quadro
+    - tabelar
+    - quadrar

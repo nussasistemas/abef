@@ -306,7 +306,13 @@ words:
     text: appropriate
     translations:
     - apropriado
+    - apropriada
     - adequado
+    - adequada
+    - apropriados
+    - apropriadas
+    - adequados
+    - adequadas
     - apropriar
     - adequar
   are:
@@ -315,7 +321,7 @@ words:
     text: are
     translations:
     - sao
-    - serao
+    - serão
     - are
   attitudes:
     classification:
@@ -338,7 +344,17 @@ words:
     - i
     text: beliefs
     translations:
+    - crencas
+    - fés
+    - convicções
+  belief:
+    classification:
+    - i
+    text: belief
+    translations:
     - crenca
+    - fé
+    - convicção
   but:
     classification:
     - d
@@ -475,12 +491,17 @@ words:
     - espirito
     - mentir
     - importar
+    - obedecer
+    - notar
   not:
     classification:
+    - b
     - i
+    - a
     text: not
     translations:
     - nao
+    - não
   perspective:
     classification:
     - i
@@ -488,11 +509,21 @@ words:
     translations:
     - perspectiva
     - vista
+  result:
+    classification:
+    - i
+    text: result
+    translations:
+    - resulta
+    - resultado
   results:
     classification:
     - i
     text: results
     translations:
+    - resultados
+    - resulta
+    - resultam
     - resultado
   start:
     classification:
@@ -501,7 +532,9 @@ words:
     text: start
     translations:
     - iniciar
-    - comecar
+    - começar
+    - começa
+    - comece
     - comedir
     - arrancar
     - inicio
@@ -510,7 +543,6 @@ words:
   state:
     classification:
     - i
-    - j
     text: state
     translations:
     - estado
@@ -577,16 +609,14 @@ words:
     - sem
   your:
     classification:
-    - i
-    - c
+    - h
     text: your
     translations:
     - sua
     - seu
   yours:
     classification:
-    - i
-    - c
+    - h
     text: yours
     translations:
     - suas
@@ -596,9 +626,8 @@ words:
     - h
     text: yourself
     translations:
-    - se
-    - mesmo
-    - te
+    - você mesmo
+    - a você
   enjoy:
     classification:
     - j
@@ -632,6 +661,7 @@ words:
     - divertindo
     - beneficiando
     - disfrutando
+    - divertir
   our:
     classification:
     - c
@@ -647,3 +677,17 @@ words:
     - um
     - uma
     - unico
+  in:
+    classification:
+    - g
+    text: in
+    translations:
+    - em
+    - no
+  on:
+    classification:
+      - g
+    text: on
+    translations:
+      - em
+      - no

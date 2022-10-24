@@ -51,7 +51,7 @@ class Yandex:
 
     def run(self):
         # Words to be translated
-        words = ['one']
+        words = ['rabbit', 'over', 'the', 'table']
 
         # dict_source = load_parameters('../data/dictionary_pt_en.yml')
         dict_source = load_parameters('../data/dictionary_en_pt.yml')

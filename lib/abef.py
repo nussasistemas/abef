@@ -52,7 +52,7 @@ class Abef:
         return ss_count
 
     def aval_ss(self, ss, ss_ref):
-        ss_count = len(ss)
+        ss_count = len(ss) if len(ss) > len(ss_ref) else len(ss_ref)
         distance = editdistance.eval(ss, ss_ref)
         return (ss_count - distance) / ss_count
 
@@ -71,7 +71,7 @@ class Abef:
         positions = []
 
         while i < len(t_o):
-            if t_o[i]['classification'][0] == word['classification'][0]:
+            if any(item in t_o[i]['classification'] for item in word['classification']):
                 if word['text'] in self.get_translation(t_o[i]['text'], io):
                     positions.append(i)
             i += 1
@@ -91,12 +91,14 @@ class Abef:
             penalty = len(repetitions) / len(words_list)
 
         while i < count_words:
-            if t_c[i]['classification'][0] in ss_compare:
+            # if t_c[i]['classification'][0] in ss_compare:
+            if any(item in t_c[i]['classification'] for item in ss_compare):
                 count_pc += 1
                 if len(self.search_translation(t_o, t_c[i], source_language)) > 0:
                     fx += 1
                 else:
-                    if t_c[i]['classification'][0] in self.class_penalties and self.class_weights is not None:
+                    if any(item in t_c[i]['classification'] for item in self.class_penalties) \
+                            and self.class_weights is not None:
                         penalty *= 1 - self.class_weights[t_c[i]['classification'][0]]
             i = i + 1
 

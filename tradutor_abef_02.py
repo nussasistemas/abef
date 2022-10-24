@@ -104,14 +104,14 @@ def main():
     abef = Abef(dict_pt_en['words'], dict_en_pt['words'], source_language, target_language, Class_Weights,
                 class_penalties)
 
-    individuals = 5
+    individuals = 10
     genes = len(sentence_o)-1
     ger = 1000
     max_number = len(dict_pt_en)
     results = ga(individuals, genes, ger, max_number, f_aval, get_sentence)
 
     results_path = os.path.basename(__file__)
-    results_path = results_path.replace("tradutor", "results").replace(".py", ".csv")
+    resultsr_path = results_path.replace("tradutor", "results").replace(".py", ".csv")
 
     with open('./results/%s' % results_path, 'w') as file:
         for result in results:

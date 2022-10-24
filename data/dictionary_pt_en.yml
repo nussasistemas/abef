@@ -103,6 +103,21 @@ words:
       - j
     translations:
       - is
+      - are
+  estar:
+    text: estar
+    classification:
+      - j
+    translations:
+      - is
+      - are
+  estiver:
+    text: estiver
+    classification:
+      - j
+    translations:
+      - is
+      - are
   manga:
     text: manga
     classification:
@@ -361,12 +376,19 @@ words:
     - the
     - them
     - ye
-  consistencia:
+  consistência:
     classification:
     - i
-    text: consistencia
+    text: consistência
     translations:
     - consistency
+    - consistence
+  consistências:
+    classification:
+    - i
+    text: consistências
+    translations:
+    - consistencies
     - consistence
   das:
     classification:
@@ -388,6 +410,18 @@ words:
     - have some fun
     - join the fun
     - be fun
+  divertindo:
+    classification:
+    - j
+    text: divertindo
+    translations:
+    - fun
+    - enjoying
+    - entertaining
+    - amusing
+    - having fun
+    - joining the fun
+    - been fun
   divertir-se:
     classification:
     - j
@@ -407,17 +441,16 @@ words:
     text: e
     translations:
     - and
-  espirito:
+  espírito:
     classification:
     - i
-    text: espirito
+    text: espírito
     translations:
     - spirit
     - holy spirit
     - spirits
     - mind
     - holy
-    - Espirito
   estado:
     classification:
     - i
@@ -425,10 +458,26 @@ words:
     translations:
     - state
     - status
-    - member state
     - member
     - states
-    - estado
+  apropriadas:
+    classification:
+      - a
+    text: apropriadas
+    translations:
+      - appropriate
+      - suitable
+      - proper
+      - decent
+  apropriada:
+    classification:
+      - a
+    text: apropriada
+    translations:
+      - appropriate
+      - suitable
+      - proper
+      - decent
   feliz:
     classification:
     - a
@@ -448,12 +497,11 @@ words:
     - but
   mental:
     classification:
-    - a
+    - i
     text: mental
     translations:
     - mental
-    - mentally ill
-    - and mental
+    - mind
   mudar:
     classification:
     - j
@@ -505,6 +553,15 @@ words:
     text: sem
     translations:
     - without
+  em:
+    classification:
+    - g
+    text: em
+    translations:
+    - in
+    - on
+    - at
+    - into
   ser:
     classification:
     - j
@@ -512,10 +569,10 @@ words:
     translations:
     - be
     - willing
-  serao:
+  serão:
     classification:
     - i
-    text: serao
+    text: serão
     translations:
     - will
     - are
@@ -525,7 +582,6 @@ words:
     - will get
   seu:
     classification:
-    - i
     - h
     text: seu
     translations:
@@ -542,20 +598,33 @@ words:
     - theirs
   subitamente:
     classification:
-    - b
+      - b
     text: subitamente
     translations:
-    - suddenly
+      - suddenly
+  repente:
+    classification:
+      - b
+    text: subitamente
+    translations:
+      - suddenly
+      - sudden
+  repentinamente:
+    classification:
+      - b
+    text: repentinamente
+    translations:
+      - suddenly
+      - sudden
   subproduto:
     classification:
     - i
     text: subproduto
     translations:
     - byproduct
+    - by-product
     - product
-    - ABP
     - subproduct
-    - waste byproduct
   tentar:
     classification:
     - j
@@ -585,7 +654,7 @@ words:
       - i
     text: atitudes
     translations:
-      - attitude
+      - attitudes
   consistente:
     classification:
     - a
@@ -612,34 +681,34 @@ words:
     translations:
     - consistency
     - consistence
-  convicao:
+  convicção:
     classification:
     - i
-    text: convicao
+    text: convicção
     translations:
     - conviction
     - belief
     - firm belief
     - political convictions
     - gain confidence
-  conviccoes:
+  convicções:
     classification:
       - i
-    text: conviccoes
+    text: convicções
     translations:
       - convictions
       - beliefs
       - firm beliefs
       - political convictions
       - gain confidence
-  crenca:
+  crença:
     classification:
     - i
     text: crenca
     translations:
     - belief
     - creed
-  crencas:
+  crenças:
     classification:
     - i
     text: crencas
@@ -662,10 +731,10 @@ words:
       - different
       - various
       - other
-  dificil:
+  difícil:
     classification:
     - a
-    text: dificil
+    text: difícil
     translations:
     - difficult
     - hard
@@ -711,6 +780,7 @@ words:
   poder:
     classification:
     - i
+    - j
     text: poder
     translations:
     - can
@@ -719,8 +789,16 @@ words:
     - power
   podem:
     classification:
-      - i
+      - j
     text: podem
+    translations:
+      - can
+      - may
+      - might
+  pode:
+    classification:
+      - j
+    text: pode
     translations:
       - can
       - may
@@ -763,21 +841,19 @@ words:
     - its
   suas:
     classification:
-    - i
     - h
+    - i
     text: suas
     translations:
     - yours
-    - hers
     - their
   seus:
     classification:
-      - i
       - h
+      - i
     text: seus
     translations:
       - yours
-      - their
   adequado:
     classification:
     - a
@@ -818,3 +894,39 @@ words:
     - adequate
     - suited
     - proper
+  perspectiva:
+    classification:
+      - i
+    text: perspectiva
+    translations:
+        - perspective
+  começa:
+    classification:
+      - i
+    text: começa
+    translations:
+        - start
+        - starts
+        - begin
+        - commence
+        - begins
+  começar:
+    classification:
+      - i
+    text: começar
+    translations:
+        - start
+        - starts
+        - begin
+        - commence
+        - begins
+  comece:
+    classification:
+      - i
+    text: comece
+    translations:
+        - start
+        - starts
+        - begin
+        - commence
+        - begins

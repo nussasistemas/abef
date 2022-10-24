@@ -7,7 +7,7 @@ from lib.ga_to1 import ga
 dict_pt_en = None
 dict_target = None
 dict_main = None
-ss_pt_en = None
+ss_sl_tl = None
 sentence_o = None
 candidates = None
 t_o = []
@@ -28,12 +28,14 @@ def evaluate(t_o, candidate, abef, source_language, dictionary, dict_ss_sl_tl):
 
     for word in sentence_t:
         t_t.append(dictionary[word])
-
+    var_test = abef.get_ss_string(t_o)
     ss_sl_tl = abef.get_ss_target(abef.get_ss_string(t_o), dict_ss_sl_tl)
     ss_t = abef.get_ss_string(t_t)
-    ss = abef.get_nearest_ss(ss_t, ss_sl_tl)
-    fx_ss = abef.aval_ss(ss_t, ss_sl_tl[ss])
-    return abef.aval_sentence(t_t, t_o, ss_sl_tl[ss], source_language, fx_ss)
+    if len(ss_sl_tl) > 0:
+        ss = abef.get_nearest_ss(ss_t, ss_sl_tl)
+        fx_ss = abef.aval_ss(ss_t, ss_sl_tl[ss])
+        return abef.aval_sentence(t_t, t_o, ss_sl_tl[ss], source_language, fx_ss)
+    return 0
 
 
 def f_aval(candidates_vector):
@@ -53,7 +55,7 @@ def f_aval(candidates_vector):
                 candidate.append(words[position])
 
             candidate = ' '.join(candidate)
-            evaluation = 1 - evaluate(t_o, candidate, abef, source_language, dict_main, ss_pt_en)
+            evaluation = 1 - evaluate(t_o, candidate, abef, source_language, dict_main, ss_sl_tl)
             fx.append(evaluation)
         else:
             fx.append(float('inf'))
@@ -87,18 +89,19 @@ def filter_dictionary(dictionary, words):
 
 
 def main():
-    global dict_pt_en, dict_target, dict_main, ss_pt_en, sentence_o, source_language, target_language, abef
+    global dict_pt_en, dict_target, dict_main, ss_sl_tl, sentence_o, source_language, target_language, abef
     """
     
         Troque abaixo a frase que deseja traduzir
     
     """
-    sentence_o = 'our state of mind is a by-product of your beliefs and attitudes'.split(' ')
-    dict_target = load_parameters('./data/dictionary_pt_en.yml')
-    dict_source = load_parameters('./data/dictionary_en_pt.yml')
-    ss_pt_en = load_parameters('./data/ss_pt_en.yml')
+    sentence_o = 'you can try to create consistency without having the appropriate beliefs and attitudes'.split(' ')
     source_language = 'en'
     target_language = 'pt'
+    language_pair = '%s_%s' % (source_language, target_language)
+    dict_source = load_parameters('./data/dictionary_%s_%s.yml' % (source_language, target_language))
+    dict_target = load_parameters('./data/dictionary_%s_%s.yml' % (target_language, source_language))
+    ss_sl_tl = load_parameters('./data/ss_%s.yml' % language_pair)
     dict_main = filter_dictionary(dict_target['words'], sentence_o)
 
     for word in sentence_o:
@@ -107,9 +110,9 @@ def main():
     abef = Abef(dict_source['words'], dict_target['words'], source_language, target_language, Class_Weights,
                 class_penalties)
 
-    individuals = 5
+    individuals = 20
     genes = len(sentence_o)+1
-    ger = 1000
+    ger = 10000
     max_number = len(dict_source)
     results = ga(individuals, genes, ger, max_number, f_aval, get_sentence)
 

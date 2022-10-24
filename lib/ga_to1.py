@@ -142,6 +142,14 @@ def ga(individuals, genes, ger, max_number, f_aval, get_sentence):
     # x = [[1,2],[3,5],[0,-5]]
     while melhor_i[-1] >= error_rate and ger_cont < ger_max:
         fx = f_aval(Pin)
+        tm = numpy.linspace(0.05, 0.4, ger_max)  # Taxa de Mutação
+        tc = numpy.linspace(0.9, 0.2, ger_max)  # Taxa de Cruzamento
+
+        if melhor_i[0] == melhor_i[1]:
+            new_tm = random.uniform(0.5, 1)
+            tm = numpy.linspace(0.05*new_tm, 0.4*new_tm, ger_max)
+            tc = numpy.linspace(0.9*new_tm, 0.2*new_tm, ger_max)
+
         pop_fx = ordena(Pin, fx)
         melhor_i = pop_fx[-1]
         pop_sel = selection(pop_fx, tau)
