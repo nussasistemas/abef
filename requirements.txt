@@ -3,6 +3,6 @@ nltk==3.6.6
 wordnet==0.0.1b2
 numpy==1.22.0
 requests==2.25.1
-scipy==1.6.2
+scipy==1.10.0
 PyYAML==5.4.1
 requests
